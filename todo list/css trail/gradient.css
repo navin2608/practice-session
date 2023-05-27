@@ -1,0 +1,29 @@
+.gradient{
+    background: rgb(131,58,180);
+background: linear-gradient(39deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+margin:100px 20px 30px 40px;
+padding:10px;
+}
+.pattern-geneartor{
+    background:url(
+ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAGhJREFUKFN1jlENgDAMBW82QAbYwAY60IENbIAMsDFyoWv2Q5Nl7Xbv9RVgAi6+2oAdeGKuJRqhJQCfBuAGSgNUHp1TBUadBPz0WDqdKmMebLTLncDcZ2pkCPLKTH9AZhIwUO4E1j7TC8emFNXDbSWDAAAAAElFTkSuQmCC
+    ) repeat;
+    padding:5px;
+ }
+ .grids{
+     display: grid;
+        grid-template-columns: 0.8fr 1.2fr 1fr;
+        grid-template-rows: 4.5fr 0fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: column;
+        align-content: start;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . .";
+        width: 300px;
+        background-color: red;   
+        padding:10px;
+ }
