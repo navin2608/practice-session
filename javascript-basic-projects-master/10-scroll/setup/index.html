@@ -7,13 +7,75 @@
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>scroll project</h1>
+   <header id="home">
+     <nav id="nav">
+       <div class="nav-center">
+         <div class="nav-header">
+           <img src="logo.svg" alt="logo" class="logo" />
+           <button class="nav-toggle">
+             <i class="fas fa-bars"></i>
+           </button>
+         </div>
+         <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="scroll-link">services</a>
+            </li>
+            <li>
+              <a href="#tours" class="scroll-link">tours</a>
+            </li>
+          </ul>
+         </div>
+       </div>
+     </nav>
+     <div class="banner">
+      <div class="container">
+        <h1>Scroll project</h1>
+        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
+          Lorem ipsum may be used as a placeholder before final copy is available</p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>"
+      </div>
+    </div>
+   </header>
+   <!-- banner -->
+   <section id="tours" class="section">
+    <div class="title">
+      <h2>Featured <span class="">tours </span></h2>
+    </div>
+   </section>
+   <section id="services" class="section">
+    <div class="title">
+      <h2>Our <span class="">Services </span></h2>
+    </div>
+   </section>
+
+   <section id="about" class="section">
+    <div class="title">
+      <h2>about <span class="">us </span></h2>
+    </div>
+   </section>
+<footer class="section">
+  <p>
+    copyright &copy; Navin travels tours company
+    <span class="date" id="date">2020</span>.all rights reserved.
+  </p>
+</footer>
+<!-- back to top button -->
+<a class="scroll-link top-link" href="#home">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
